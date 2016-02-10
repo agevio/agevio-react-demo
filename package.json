@@ -1,10 +1,10 @@
 {
-  "author": "Mikalai Seva @ Agevio",
-  "license": "MIT",
-  "name": "agevio-react-demo",
   "version": "0.0.1",
-  "description": "Shows how to integrate Agevio with React library.",
+  "name": "agevio-react-demo",
+  "description": "Demonstrates how to integrate Agevio with React library.",
+  "author": "Mikalai Seva <mikalai.seva@gmail.com>",
   "homepage": "https://agevio.com",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/agevio/agevio-react-demo"
