@@ -9,6 +9,10 @@
     "type": "git",
     "url": "https://github.com/agevio/agevio-react-demo"
   },
+  "scripts": {
+    "dev": "$(npm bin)/brunch watch --server",
+    "build": "$(npm bin)/brunch build --production"
+  },
   "dependencies": {
     "babel-brunch": "~6.0.0",
     "babel-plugin-syntax-jsx": "^6.3.13",
