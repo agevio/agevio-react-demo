@@ -1,13 +1,14 @@
 import React from 'react';
+import t from 'agevio.js';
 
 export default React.createClass({
     handleChange(e) {
-        translate.setLocale(e.target.value);
+        t.setLocale(e.target.value);
     },
 
     render() {
-        const options = translate.getLanguages().map((lang) => {
-            const locale = translate.getLocale(lang);
+        const options = t.getLanguages().map((lang) => {
+            const locale = t.getLocale(lang);
 
             return <option value={locale} key={locale}>{lang}</option>;
         });
@@ -15,7 +16,7 @@ export default React.createClass({
         return (
           <p>
             <span>Switch language:</span>
-            <select defaultValue={translate.getLocale()} onChange={this.handleChange}>
+            <select defaultValue={this.props.locale} value={this.props.locale} onChange={this.handleChange}>
               {options}
             </select>
           </p>

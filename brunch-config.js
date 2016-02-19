@@ -13,6 +13,6 @@ exports.config = {
 
     npm: {
         enabled: true,
-        whitelist: ['react', 'react-dom']
+        whitelist: ['react', 'react-dom', 'agevio.js']
     }
 };
